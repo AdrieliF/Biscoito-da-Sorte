@@ -98,6 +98,41 @@ button {
   color: white;
   font-family: 'DM Sans', sans-serif;
   font-size: 1.5rem;
-  margin-top: 5.8rem;
+  margin-top: 5.8rem; 
 }
 
+@media (max-width: 425px) {
+  body {
+    padding: auto 2rem;
+  }
+
+  main { 
+    width: 25rem;
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .screen1 p {
+    font-size: 1.4rem;
+  }
+
+  .screen1 button,
+  .screen1 button img {
+    width: 18rem;
+  }
+
+  .screen2 p {
+    font-size: 1.8rem;
+  }
+
+  .screen2 img {
+    width: 20rem;
+  }
+
+  .screen2 button {
+    font-size: 1.4rem;
+  }
+}
